@@ -13,8 +13,8 @@
 		48250FBC1DC89BCC001E6F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48250FBA1DC89BCC001E6F92 /* Main.storyboard */; };
 		48250FBE1DC89BCC001E6F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48250FBD1DC89BCC001E6F92 /* Assets.xcassets */; };
 		48250FC11DC89BCC001E6F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48250FBF1DC89BCC001E6F92 /* LaunchScreen.storyboard */; };
-		48250FCD1DC89BF2001E6F92 /* MDJLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48250FCA1DC89BF2001E6F92 /* MDJLineView.m */; };
-		48250FCE1DC89BF2001E6F92 /* MDJProgressChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 48250FCC1DC89BF2001E6F92 /* MDJProgressChat.m */; };
+		484F29AB1DC8A4B6003217B2 /* MDJLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484F29A81DC8A4B6003217B2 /* MDJLineView.m */; };
+		484F29AC1DC8A4B6003217B2 /* MDJProgressChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 484F29AA1DC8A4B6003217B2 /* MDJProgressChat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		48250FBD1DC89BCC001E6F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48250FC01DC89BCC001E6F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48250FC21DC89BCC001E6F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48250FC91DC89BF2001E6F92 /* MDJLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJLineView.h; sourceTree = "<group>"; };
-		48250FCA1DC89BF2001E6F92 /* MDJLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDJLineView.m; sourceTree = "<group>"; };
-		48250FCB1DC89BF2001E6F92 /* MDJProgressChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJProgressChat.h; sourceTree = "<group>"; };
-		48250FCC1DC89BF2001E6F92 /* MDJProgressChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDJProgressChat.m; sourceTree = "<group>"; };
+		484F29A71DC8A4B6003217B2 /* MDJLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJLineView.h; sourceTree = "<group>"; };
+		484F29A81DC8A4B6003217B2 /* MDJLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDJLineView.m; sourceTree = "<group>"; };
+		484F29A91DC8A4B6003217B2 /* MDJProgressChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJProgressChat.h; sourceTree = "<group>"; };
+		484F29AA1DC8A4B6003217B2 /* MDJProgressChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDJProgressChat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		48250FB01DC89BCC001E6F92 /* AliPayCreditRating */ = {
 			isa = PBXGroup;
 			children = (
-				48250FC81DC89BF2001E6F92 /* Classes */,
+				484F29A61DC8A4B6003217B2 /* Classes */,
 				48250FB41DC89BCC001E6F92 /* AppDelegate.h */,
 				48250FB51DC89BCC001E6F92 /* AppDelegate.m */,
 				48250FB71DC89BCC001E6F92 /* ViewController.h */,
@@ -86,13 +86,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		48250FC81DC89BF2001E6F92 /* Classes */ = {
+		484F29A61DC8A4B6003217B2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				48250FCB1DC89BF2001E6F92 /* MDJProgressChat.h */,
-				48250FCC1DC89BF2001E6F92 /* MDJProgressChat.m */,
-				48250FC91DC89BF2001E6F92 /* MDJLineView.h */,
-				48250FCA1DC89BF2001E6F92 /* MDJLineView.m */,
+				484F29A71DC8A4B6003217B2 /* MDJLineView.h */,
+				484F29A81DC8A4B6003217B2 /* MDJLineView.m */,
+				484F29A91DC8A4B6003217B2 /* MDJProgressChat.h */,
+				484F29AA1DC8A4B6003217B2 /* MDJProgressChat.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -171,9 +171,9 @@
 			files = (
 				48250FB91DC89BCC001E6F92 /* ViewController.m in Sources */,
 				48250FB61DC89BCC001E6F92 /* AppDelegate.m in Sources */,
-				48250FCD1DC89BF2001E6F92 /* MDJLineView.m in Sources */,
+				484F29AB1DC8A4B6003217B2 /* MDJLineView.m in Sources */,
 				48250FB31DC89BCC001E6F92 /* main.m in Sources */,
-				48250FCE1DC89BF2001E6F92 /* MDJProgressChat.m in Sources */,
+				484F29AC1DC8A4B6003217B2 /* MDJProgressChat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +332,7 @@
 				48250FC71DC89BCC001E6F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
