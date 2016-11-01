@@ -1,6 +1,4 @@
-# AliPayCreditRating
-仿“支付宝信用”界面展示
-
+#仿“支付宝信用”界面展示
 ##  使用案例
 ``` objc
     // 修改frame ,需要MDJProgressChat.m 顶部修改字号即可
