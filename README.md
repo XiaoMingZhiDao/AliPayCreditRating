@@ -12,5 +12,5 @@
     [self.view addSubview:chat];
 
 ```
-
+![image](https://github.com/XiaoMingZhiDao/AliPayCreditRating/blob/master/1.png)
 ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
